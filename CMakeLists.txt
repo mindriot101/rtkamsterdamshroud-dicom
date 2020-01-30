@@ -13,5 +13,6 @@ target_include_directories(${main} PUBLIC
     ${ITK_INCLUDE_DIRS}
     InsightToolkit-5.0.1/build/Modules/Remote/RTK/applications/rtkamsterdamshroud
     InsightToolkit-5.0.1/Modules/IO/DCMTK/include
+    include
     )
 target_link_libraries(${main} ${ITK_LIBRARIES})
